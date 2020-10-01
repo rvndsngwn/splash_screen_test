@@ -66,7 +66,7 @@ class _FlareDemoState extends State<FlareDemo> {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 102, 18, 222),
         body: Align(
-            alignment: Alignment.bottomRight,
+            alignment: Alignment.bottomCenter,
             child: SmartFlareActor(
               width: animationWidth,
               height: animationHeight,
