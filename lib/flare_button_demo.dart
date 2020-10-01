@@ -19,8 +19,8 @@ class _FlareDemoState extends State<FlareDemo> {
 
       ActiveArea(
           area: Rect.fromLTWH(
-              animationWidthThirds *0.8 , 45,
-              animationWidthThirds/1.4,
+              animationWidthThirds *0.5 , 40,
+              animationWidthThirds/1.6,
               halfAnimationHeight/2),
           debugArea: false,
           guardComingFrom: ['deactivate'],
@@ -31,7 +31,7 @@ class _FlareDemoState extends State<FlareDemo> {
 
       ActiveArea(
           area: Rect.fromLTWH(
-              animationWidthThirds *1.6 , 45,
+              animationWidthThirds *1.2 , 40,
               animationWidthThirds/1.5,
               halfAnimationHeight/2),
           debugArea: false,
@@ -42,7 +42,7 @@ class _FlareDemoState extends State<FlareDemo> {
 
       ActiveArea(
           area: Rect.fromLTWH(
-              animationWidthThirds * 4, 50,
+              animationWidthThirds * 2, 40,
               animationWidthThirds/2,
               halfAnimationHeight/2),
           debugArea: false,
