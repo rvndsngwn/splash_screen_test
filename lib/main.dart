@@ -41,7 +41,7 @@ class _MySplashScreenState extends State<MySplashScreen> {
       next: (context) => FlareDemo(),
       isLoading: _isLoading,
       startAnimation: 'coding',
-      backgroundColor: Color(0xff181818),
+      backgroundColor: Colors.amber,
     );
   }
 }
