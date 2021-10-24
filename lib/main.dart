@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Splash Screen',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blue.shade200,
       ),
       home: MySplashScreen(),
     );
@@ -40,8 +40,8 @@ class _MySplashScreenState extends State<MySplashScreen> {
       name: 'assets/flr_files/intro.flr',
       next: (context) => FlareDemo(),
       isLoading: _isLoading,
-      startAnimation: 'coding',
-      backgroundColor: Colors.amber,
+      startAnimation: 'happy coding',
+      backgroundColor: Colors.green.shade300,
     );
   }
 }
