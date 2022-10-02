@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Splash Screen',
+      title: 'Flutter Splash Screen',
       theme: ThemeData(
         primarySwatch: Colors.blue.shade200,
       ),
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
 
 class MySplashScreen extends StatefulWidget {
   @override
-  _MySplashScreenState createState() => _MySplashScreenState();
+  State<MySplashScreen> createState() => _MySplashScreenState();
 }
 
 class _MySplashScreenState extends State<MySplashScreen> {
@@ -40,7 +40,7 @@ class _MySplashScreenState extends State<MySplashScreen> {
       name: 'assets/flr_files/intro.flr',
       next: (context) => FlareDemo(),
       isLoading: _isLoading,
-      startAnimation: 'happy coding',
+      startAnimation: 'happy coding flutter',
       backgroundColor: Colors.green.shade300,
     );
   }
