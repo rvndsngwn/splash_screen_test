@@ -2,7 +2,7 @@
 
 
 import 'image_tap.dart';
-
+/// Responsive Padding
 double responsivePadding(double displayWidth) => displayWidth * 0.03;
 
 int responsiveNumCols(double displayWidth) {
@@ -15,7 +15,7 @@ int responsiveNumCols(double displayWidth) {
   }
   return 4;
 }
-
+/// Responsive Child Aspect Ratio
 double responsiveChildAspectRatio(double width, int colNumber) => width / (colNumber * 110);
 
 bool isDrawerFixed(double displayWidth) => displayWidth > pixelFixedDrawer;
