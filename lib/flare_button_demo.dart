@@ -4,7 +4,7 @@ import 'package:splashscreentest/camera_tap.dart';
 
 class FlareDemo extends StatefulWidget {
   @override
-  _FlareDemoState createState() => _FlareDemoState();
+  State<FlareDemo> createState() => _FlareDemoState();
 }
 
 class _FlareDemoState extends State<FlareDemo> {

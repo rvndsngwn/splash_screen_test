@@ -3,7 +3,7 @@ import 'package:smart_flare/smart_flare.dart';
 
 class CameraTap extends StatefulWidget {
   @override
-  _CameraTapState createState() => _CameraTapState();
+  State<CameraTap> createState() => _CameraTapState();
 }
 
 class _CameraTapState extends State<CameraTap> {
@@ -74,7 +74,7 @@ class _CameraTapState extends State<CameraTap> {
         ],
       ),
       appBar: AppBar(
-        title: Text('You tap on camera'),
+        title: Text('You taped on camera'),
       ),
     );
   }
