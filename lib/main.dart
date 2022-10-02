@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
 
 class MySplashScreen extends StatefulWidget {
   @override
-  _MySplashScreenState createState() => _MySplashScreenState();
+  State<MySplashScreen> createState() => _MySplashScreenState();
 }
 
 class _MySplashScreenState extends State<MySplashScreen> {
